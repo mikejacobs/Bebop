@@ -1,0 +1,63 @@
+TRssReader
+v7
+r1
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/Detail.xib
+c000000004C1B2BD70000000000005B2A
+t1276849111
+s23338
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/MainWindow.xib
+c000000004C11F06D0000000000002C69
+t1276244077
+s11369
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/RootViewController.xib
+c000000004C11F06D0000000000004323
+t1276244077
+s17187
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug/RssReader.app
+t2
+s0
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug/RssReader.app/Contents/Info.plist
+t2
+s0
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug/RssReader.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug/RssReader.app/Contents/Resources/Detail.nib
+t2
+s0
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug/RssReader.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug/RssReader.app/Contents/Resources/RootViewController.nib
+t2
+s0
+
+NRssReader-Info.plist
+c000000004C11F06D000000000000038D
+t1276244077
+s909
+
+CCompileXIB /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/Detail.xib
+r0
+
+CCompileXIB /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/MainWindow.xib
+r0
+
+CCompileXIB /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/RootViewController.xib
+r0
+
+CProcessInfoPlistFile /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug/RssReader.app/Contents/Info.plist RssReader-Info.plist
+r0
+
+CTouch /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug/RssReader.app
+r0
+

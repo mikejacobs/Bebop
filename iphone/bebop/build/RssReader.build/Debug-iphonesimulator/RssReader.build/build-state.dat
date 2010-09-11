@@ -1,0 +1,681 @@
+TRssReader
+v7
+r0
+t305859765.263202
+cCheck dependencies
+cProcessInfoPlistFile /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/Info.plist RssReader-Info.plist
+cCompileXIB /Users/mjacobs/git/bebop/iphone/bebop/MainWindow.xib
+cCompileXIB /Users/mjacobs/git/bebop/iphone/bebop/RootViewController.xib
+cCompileXIB /Users/mjacobs/git/bebop/iphone/bebop/Classes/Detail.xib
+cProcessPCH /var/folders/at/atnH+NV2H8GDDYXAasUFhU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-bultzqmxxjkhdkcofpblqzokgdmp/RssReader_Prefix.pch.gch RssReader_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/main.o /Users/mjacobs/git/bebop/iphone/bebop/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RssReaderAppDelegate.o /Users/mjacobs/git/bebop/iphone/bebop/Classes/RssReaderAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RootViewController.o /Users/mjacobs/git/bebop/iphone/bebop/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/Parser.o /Users/mjacobs/git/bebop/iphone/bebop/Classes/Parser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/DetailController.o /Users/mjacobs/git/bebop/iphone/bebop/Classes/DetailController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/RssReader normal i386
+cGenerateDSYMFile /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app.dSYM /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/RssReader
+cTouch /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004BB1B68900000000000000EE
+t1269937801
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/Availability.h
+c000000004B2B4EE200000000000019F9
+t1261129442
+s6649
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C59F5DC0000000000000132
+t1280964060
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h
+c000000004BF4CBF90000000000001A3B
+t1274334201
+s6715
+
+N/Users/mjacobs/git/bebop/iphone/bebop/Classes/Detail.xib
+c000000004C1B2BD70000000000005B2A
+t1276849111
+s23338
+
+N/Users/mjacobs/git/bebop/iphone/bebop/Classes/DetailController.h
+c000000004C1B28280000000000000288
+t1276848168
+s648
+i<UIKit/UIKit.h>
+
+N/Users/mjacobs/git/bebop/iphone/bebop/Classes/DetailController.m
+c000000004C1B2B6600000000000008DA
+t1276848998
+s2266
+i"DetailController.h"
+
+N/Users/mjacobs/git/bebop/iphone/bebop/Classes/Parser.h
+c000000004C415D98000000000000043E
+t1279352216
+s1086
+i<Foundation/Foundation.h>
+
+N/Users/mjacobs/git/bebop/iphone/bebop/Classes/Parser.m
+c000000004C415EA100000000000011D1
+t1279352481
+s4561
+i"Parser.h"
+
+N/Users/mjacobs/git/bebop/iphone/bebop/Classes/RootViewController.h
+c000000004C1B103C0000000000000184
+t1276842044
+s388
+
+N/Users/mjacobs/git/bebop/iphone/bebop/Classes/RootViewController.m
+c000000004C8AD52900000000000014FD
+t1284166953
+s5373
+i"RootViewController.h"
+i"Parser.h"
+i"DetailController.h"
+
+N/Users/mjacobs/git/bebop/iphone/bebop/Classes/RssReaderAppDelegate.h
+c000000004C11F06D00000000000001B9
+t1276244077
+s441
+
+N/Users/mjacobs/git/bebop/iphone/bebop/Classes/RssReaderAppDelegate.m
+c000000004C11F06D0000000000000337
+t1276244077
+s823
+i"RssReaderAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/mjacobs/git/bebop/iphone/bebop/MainWindow.xib
+c000000004C11F06D0000000000002C69
+t1276244077
+s11369
+
+N/Users/mjacobs/git/bebop/iphone/bebop/RootViewController.xib
+c000000004C11F06D0000000000004323
+t1276244077
+s17187
+
+N/Users/mjacobs/git/bebop/iphone/bebop/RssReader_Prefix.pch
+c000000004C11F06D0000000000000144
+t1276244077
+s324
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app
+t1284166965
+s272
+
+N/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app.dSYM
+t1284166965
+s102
+
+N/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/Detail.nib
+t1284166964
+s2137
+
+N/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/Info.plist
+t1284166963
+s599
+
+N/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/MainWindow.nib
+t1284166964
+s1487
+
+N/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/PkgInfo
+t1284166963
+s8
+
+N/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/RootViewController.nib
+t1284166964
+s979
+
+N/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/RssReader
+t1284166965
+s39236
+
+N/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/DetailController.o
+t1284166965
+s44932
+
+N/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/Parser.o
+t1284166965
+s66732
+
+N/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RootViewController.o
+t1284166965
+s49116
+
+N/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RssReader.LinkFileList
+c000000004C8AD533000000000000029D
+t1284166963
+s669
+
+N/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RssReaderAppDelegate.o
+t1284166965
+s47392
+
+N/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/main.o
+t1284166965
+s6300
+
+N/Users/mjacobs/git/bebop/iphone/bebop/main.m
+c000000004C11F06D0000000000000164
+t1276244077
+s356
+i<UIKit/UIKit.h>
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/Detail.xib
+c000000004C1B2BD70000000000005B2A
+t1276849111
+s23338
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/DetailController.h
+c000000004C1B28280000000000000288
+t1276848168
+s648
+i<UIKit/UIKit.h>
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/DetailController.m
+c000000004C1B2B6600000000000008DA
+t1276848998
+s2266
+i"DetailController.h"
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/DetailController.xib
+c000000004C1B264C000000000000186B
+t1276847692
+s6251
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/Parser.h
+c000000004C415D98000000000000043E
+t1279352216
+s1086
+i<Foundation/Foundation.h>
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/Parser.m
+c000000004C415EA100000000000011D1
+t1279352481
+s4561
+i"Parser.h"
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/RootViewController.h
+c000000004C1B103C0000000000000184
+t1276842044
+s388
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/RootViewController.m
+c000000004C1B2B3B000000000000150D
+t1276848955
+s5389
+i"RootViewController.h"
+i"Parser.h"
+i"DetailController.h"
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/RssReaderAppDelegate.h
+c000000004C11F06D00000000000001B9
+t1276244077
+s441
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/RssReaderAppDelegate.m
+c000000004C11F06D0000000000000337
+t1276244077
+s823
+i"RssReaderAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/MainWindow.xib
+c000000004C11F06D0000000000002C69
+t1276244077
+s11369
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/RootViewController.xib
+c000000004C11F06D0000000000004323
+t1276244077
+s17187
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/RssReader_Prefix.pch
+c000000004C11F06D0000000000000144
+t1276244077
+s324
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app
+t1279352481
+s272
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app.dSYM
+t1279352481
+s102
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/Detail.nib
+t1279351992
+s2139
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/DetailController.nib
+t2
+s0
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/Info.plist
+t1279351991
+s599
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/MainWindow.nib
+t1279351992
+s1487
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/PkgInfo
+t1279351991
+s8
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/RootViewController.nib
+t1279351992
+s979
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/RssReader
+t1279352481
+s39596
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/DetailController.o
+t1279351994
+s45004
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/Parser.o
+t1279352481
+s66804
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RootViewController.o
+t1279352330
+s49204
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RssReader.LinkFileList
+c000000004C1B2B3B0000000000000351
+t1276848955
+s849
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RssReaderAppDelegate.o
+t1279351993
+s47464
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/main.o
+t1279351993
+s6372
+
+N/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/main.m
+c000000004C11F06D0000000000000164
+t1276244077
+s356
+i<UIKit/UIKit.h>
+
+N/var/folders/38/38E+-cMkH0W0P4GS1ZV-6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-eohmfzhzghgeqmebklpmigjovgai/RssReader_Prefix.pch.gch
+t1276842023
+s13034960
+
+N/var/folders/38/38E+-cMkH0W0P4GS1ZV-6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-ftuimqvhorfltvfohavxrtqlikvf/RssReader_Prefix.pch.gch
+t1279351993
+s15232016
+
+N/var/folders/at/atnH+NV2H8GDDYXAasUFhU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-bultzqmxxjkhdkcofpblqzokgdmp/RssReader_Prefix.pch.gch
+t1284166964
+s15232016
+
+NRssReader-Info.plist
+c000000004C11F06D000000000000038D
+t1276244077
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies305859763#305859763#0(0"0(0#1#0"8609295744#0"0#
+
+CCompileC build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/DetailController.o /Users/mjacobs/git/bebop/iphone/bebop/Classes/DetailController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s305859765.115027
+e305859765.211936
+r1
+xCompileC
+xbuild/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/DetailController.o
+x/Users/mjacobs/git/bebop/iphone/bebop/Classes/DetailController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/mjacobs/git/bebop/iphone/bebop/Classes/DetailController.m305859765#305859765#0(0"0(0#0#64"/Users/mjacobs/git/bebop/iphone/bebop/Classes/DetailController.m8607810688#1962"    cd /Users/mjacobs/git/bebop/iphone/bebop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-generated-files.hmap -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-own-target-headers.hmap -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-all-target-headers.hmap -iquote /Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-project-headers.hmap -F/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator -I/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/include -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources/i386 -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources -include /var/folders/at/atnH+NV2H8GDDYXAasUFhU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-bultzqmxxjkhdkcofpblqzokgdmp/RssReader_Prefix.pch -c /Users/mjacobs/git/bebop/iphone/bebop/Classes/DetailController.m -o /Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/DetailController.o0#
+
+CCompileC build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/DetailController.o /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/DetailController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301044794.082286
+e301044794.146745
+r1
+xCompileC
+xbuild/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/DetailController.o
+x/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/DetailController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/DetailController.m301044794#301044794#0(0"0(0#0#100"/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/DetailController.m8602557312#2358"    cd /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-generated-files.hmap -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-own-target-headers.hmap -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-all-target-headers.hmap -iquote /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-project-headers.hmap -F/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/include -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources/i386 -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources -include /var/folders/38/38E+-cMkH0W0P4GS1ZV-6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-ftuimqvhorfltvfohavxrtqlikvf/RssReader_Prefix.pch -c /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/DetailController.m -o /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/DetailController.o0#
+
+CCompileC build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/Parser.o /Users/mjacobs/git/bebop/iphone/bebop/Classes/Parser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s305859765.042215
+e305859765.196551
+r1
+xCompileC
+xbuild/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/Parser.o
+x/Users/mjacobs/git/bebop/iphone/bebop/Classes/Parser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/mjacobs/git/bebop/iphone/bebop/Classes/Parser.m305859765#305859765#0(0"0(0#0#54"/Users/mjacobs/git/bebop/iphone/bebop/Classes/Parser.m8609813568#1942"    cd /Users/mjacobs/git/bebop/iphone/bebop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-generated-files.hmap -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-own-target-headers.hmap -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-all-target-headers.hmap -iquote /Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-project-headers.hmap -F/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator -I/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/include -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources/i386 -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources -include /var/folders/at/atnH+NV2H8GDDYXAasUFhU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-bultzqmxxjkhdkcofpblqzokgdmp/RssReader_Prefix.pch -c /Users/mjacobs/git/bebop/iphone/bebop/Classes/Parser.m -o /Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/Parser.o0#
+
+CCompileC build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/Parser.o /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/Parser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301045281.135959
+e301045281.321641
+r1
+xCompileC
+xbuild/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/Parser.o
+x/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/Parser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/Parser.m301045281#301045281#0(0"0(0#0#90"/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/Parser.m8605199488#2338"    cd /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-generated-files.hmap -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-own-target-headers.hmap -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-all-target-headers.hmap -iquote /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-project-headers.hmap -F/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/include -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources/i386 -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources -include /var/folders/38/38E+-cMkH0W0P4GS1ZV-6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-ftuimqvhorfltvfohavxrtqlikvf/RssReader_Prefix.pch -c /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/Parser.m -o /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/Parser.o0#
+
+CCompileC build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RootViewController.o /Users/mjacobs/git/bebop/iphone/bebop/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s305859765.040979
+e305859765.158979
+r1
+xCompileC
+xbuild/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RootViewController.o
+x/Users/mjacobs/git/bebop/iphone/bebop/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/mjacobs/git/bebop/iphone/bebop/Classes/RootViewController.m305859765#305859765#0(0"0(0#0#66"/Users/mjacobs/git/bebop/iphone/bebop/Classes/RootViewController.m8603731872#1966"    cd /Users/mjacobs/git/bebop/iphone/bebop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-generated-files.hmap -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-own-target-headers.hmap -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-all-target-headers.hmap -iquote /Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-project-headers.hmap -F/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator -I/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/include -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources/i386 -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources -include /var/folders/at/atnH+NV2H8GDDYXAasUFhU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-bultzqmxxjkhdkcofpblqzokgdmp/RssReader_Prefix.pch -c /Users/mjacobs/git/bebop/iphone/bebop/Classes/RootViewController.m -o /Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RootViewController.o /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301045130.565597
+e301045130.654175
+r1
+xCompileC
+xbuild/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RootViewController.o
+x/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@110"Compile /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/RootViewController.m301045130#301045130#0(0"0(0#0#102"/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/RootViewController.m8608045344#2362"    cd /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-generated-files.hmap -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-own-target-headers.hmap -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-all-target-headers.hmap -iquote /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-project-headers.hmap -F/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/include -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources/i386 -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources -include /var/folders/38/38E+-cMkH0W0P4GS1ZV-6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-ftuimqvhorfltvfohavxrtqlikvf/RssReader_Prefix.pch -c /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/RootViewController.m -o /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RssReaderAppDelegate.o /Users/mjacobs/git/bebop/iphone/bebop/Classes/RssReaderAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s305859765.039699
+e305859765.143569
+r1
+xCompileC
+xbuild/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RssReaderAppDelegate.o
+x/Users/mjacobs/git/bebop/iphone/bebop/Classes/RssReaderAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/mjacobs/git/bebop/iphone/bebop/Classes/RssReaderAppDelegate.m305859765#305859765#0(0"0(0#0#68"/Users/mjacobs/git/bebop/iphone/bebop/Classes/RssReaderAppDelegate.m8609545824#1970"    cd /Users/mjacobs/git/bebop/iphone/bebop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-generated-files.hmap -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-own-target-headers.hmap -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-all-target-headers.hmap -iquote /Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-project-headers.hmap -F/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator -I/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/include -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources/i386 -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources -include /var/folders/at/atnH+NV2H8GDDYXAasUFhU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-bultzqmxxjkhdkcofpblqzokgdmp/RssReader_Prefix.pch -c /Users/mjacobs/git/bebop/iphone/bebop/Classes/RssReaderAppDelegate.m -o /Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RssReaderAppDelegate.o0#
+
+CCompileC build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RssReaderAppDelegate.o /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/RssReaderAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301044793.848774
+e301044793.999318
+r1
+xCompileC
+xbuild/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RssReaderAppDelegate.o
+x/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/RssReaderAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@112"Compile /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/RssReaderAppDelegate.m301044793#301044793#0(0"0(0#0#104"/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/RssReaderAppDelegate.m8605317632#2366"    cd /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-generated-files.hmap -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-own-target-headers.hmap -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-all-target-headers.hmap -iquote /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-project-headers.hmap -F/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/include -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources/i386 -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources -include /var/folders/38/38E+-cMkH0W0P4GS1ZV-6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-ftuimqvhorfltvfohavxrtqlikvf/RssReader_Prefix.pch -c /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/RssReaderAppDelegate.m -o /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RssReaderAppDelegate.o0#
+
+CCompileC build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/main.o /Users/mjacobs/git/bebop/iphone/bebop/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s305859765.037680
+e305859765.114887
+r1
+xCompileC
+xbuild/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/main.o
+x/Users/mjacobs/git/bebop/iphone/bebop/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/mjacobs/git/bebop/iphone/bebop/main.m305859765#305859765#0(0"0(0#0#44"/Users/mjacobs/git/bebop/iphone/bebop/main.m8603351840#1930"    cd /Users/mjacobs/git/bebop/iphone/bebop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-generated-files.hmap -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-own-target-headers.hmap -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-all-target-headers.hmap -iquote /Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-project-headers.hmap -F/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator -I/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/include -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources/i386 -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources -include /var/folders/at/atnH+NV2H8GDDYXAasUFhU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-bultzqmxxjkhdkcofpblqzokgdmp/RssReader_Prefix.pch -c /Users/mjacobs/git/bebop/iphone/bebop/main.m -o /Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/main.o0#
+
+CCompileC build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/main.o /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s301044793.847682
+e301044793.984669
+r1
+xCompileC
+xbuild/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/main.o
+x/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/main.m301044793#301044793#0(0"0(0#0#80"/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/main.m8605593952#2326"    cd /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-generated-files.hmap -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-own-target-headers.hmap -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-all-target-headers.hmap -iquote /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-project-headers.hmap -F/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/include -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources/i386 -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources -include /var/folders/38/38E+-cMkH0W0P4GS1ZV-6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-ftuimqvhorfltvfohavxrtqlikvf/RssReader_Prefix.pch -c /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/main.m -o /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/mjacobs/git/bebop/iphone/bebop/Classes/Detail.xib
+s305859763.536301
+e305859764.085079
+r1
+xCompileXIB
+x/Users/mjacobs/git/bebop/iphone/bebop/Classes/Detail.xib
+lSLF07#2@29"CompileXIB Classes/Detail.xib305859763#305859764#0(0"0(0#0#56"/Users/mjacobs/git/bebop/iphone/bebop/Classes/Detail.xib8608327552#569"    cd /Users/mjacobs/git/bebop/iphone/bebop    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/Detail.nib /Users/mjacobs/git/bebop/iphone/bebop/Classes/Detail.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/mjacobs/git/bebop/iphone/bebop/MainWindow.xib
+s305859763.534626
+e305859764.179805
+r1
+xCompileXIB
+x/Users/mjacobs/git/bebop/iphone/bebop/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib305859763#305859764#0(0"0(0#0#52"/Users/mjacobs/git/bebop/iphone/bebop/MainWindow.xib8607760000#569"    cd /Users/mjacobs/git/bebop/iphone/bebop    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/MainWindow.nib /Users/mjacobs/git/bebop/iphone/bebop/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/mjacobs/git/bebop/iphone/bebop/RootViewController.xib
+s305859763.535541
+e305859764.179531
+r1
+xCompileXIB
+x/Users/mjacobs/git/bebop/iphone/bebop/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib305859763#305859764#0(0"0(0#0#60"/Users/mjacobs/git/bebop/iphone/bebop/RootViewController.xib8609622272#585"    cd /Users/mjacobs/git/bebop/iphone/bebop    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/RootViewController.nib /Users/mjacobs/git/bebop/iphone/bebop/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/Detail.xib
+s301044792.267117
+e301044792.955359
+r1
+xCompileXIB
+x/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/Detail.xib
+lSLF07#2@29"CompileXIB Classes/Detail.xib301044792#301044792#0(0"0(0#0#92"/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/Detail.xib8607590464#677"    cd /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/Detail.nib /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/Detail.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/Classes/DetailController.xib
+r0
+
+CCompileXIB /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/MainWindow.xib
+s301044791.851856
+e301044792.267042
+r1
+xCompileXIB
+x/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib301044791#301044792#0(0"0(0#0#88"/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/MainWindow.xib8607265568#677"    cd /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/MainWindow.nib /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/RootViewController.xib
+s301044791.853900
+e301044792.271559
+r1
+xCompileXIB
+x/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib301044791#301044792#0(0"0(0#0#96"/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/RootViewController.xib8605529216#693"    cd /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/RootViewController.nib /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app.dSYM /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/RssReader
+s305859765.238548
+e305859765.258637
+r1
+xGenerateDSYMFile
+x/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app.dSYM
+x/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/RssReader
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/RssReader.app.dSYM build/Debug-iphonesimulator/RssReader.app/RssReader305859765#305859765#0(0"0(0#0#89"/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/RssReader8610206880#386"    cd /Users/mjacobs/git/bebop/iphone/bebop    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/RssReader -o /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app.dSYM0#
+
+CGenerateDSYMFile /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app.dSYM /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/RssReader
+s301045281.345912
+e301045281.365298
+r1
+xGenerateDSYMFile
+x/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app.dSYM
+x/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/RssReader
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/RssReader.app.dSYM build/Debug-iphonesimulator/RssReader.app/RssReader301045281#301045281#0(0"0(0#0#125"/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/RssReader8608429984#494"    cd /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/RssReader -o /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app.dSYM0#
+
+CLd /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/RssReader normal i386
+s305859765.212069
+e305859765.238456
+r1
+xLd
+x/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/RssReader
+xnormal
+xi386
+lSLF07#2@94"Link /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/RssReader305859765#305859765#0(0"0(0#0#0"8603050976#905"    cd /Users/mjacobs/git/bebop/iphone/bebop    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator -F/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator -filelist /Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RssReader.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/RssReader0#
+
+CLd /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/RssReader normal i386
+s301045281.321723
+e301045281.345811
+r1
+xLd
+x/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/RssReader
+xnormal
+xi386
+lSLF07#2@130"Link /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/RssReader301045281#301045281#0(0"0(0#0#0"8608468320#1085"    cd /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator -F/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator -filelist /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/Objects-normal/i386/RssReader.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/RssReader0#
+
+CProcessInfoPlistFile /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/Info.plist RssReader-Info.plist
+s305859763.530068
+e305859763.534527
+r1
+xProcessInfoPlistFile
+x/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/Info.plist
+xRssReader-Info.plist
+lSLF07#2@28"Process RssReader-Info.plist305859763#305859763#0(0"0(0#0#58"/Users/mjacobs/git/bebop/iphone/bebop/RssReader-Info.plist8608992544#482"    cd /Users/mjacobs/git/bebop/iphone/bebop    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility RssReader-Info.plist -genpkginfo /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/Info.plist RssReader-Info.plist
+s301044791.828692
+e301044791.851771
+r1
+xProcessInfoPlistFile
+x/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/Info.plist
+xRssReader-Info.plist
+lSLF07#2@28"Process RssReader-Info.plist301044791#301044791#0(0"0(0#0#94"/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/RssReader-Info.plist29555065834897524#590"    cd /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility RssReader-Info.plist -genpkginfo /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app/Info.plist0#
+
+CProcessPCH /var/folders/38/38E+-cMkH0W0P4GS1ZV-6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-eohmfzhzghgeqmebklpmigjovgai/RssReader_Prefix.pch.gch RssReader_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s298534823.323397
+e298534824.030183
+r1
+xProcessPCH
+x/var/folders/38/38E+-cMkH0W0P4GS1ZV-6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-eohmfzhzghgeqmebklpmigjovgai/RssReader_Prefix.pch.gch
+xRssReader_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile RssReader_Prefix.pch298534823#298534824#0(0"0(0#0#94"/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/RssReader_Prefix.pch4300885448#2139"    cd /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-generated-files.hmap -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-own-target-headers.hmap -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-all-target-headers.hmap -iquote /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-project-headers.hmap -F/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/include -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources/i386 -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources -c /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/RssReader_Prefix.pch -o /var/folders/38/38E+-cMkH0W0P4GS1ZV-6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-eohmfzhzghgeqmebklpmigjovgai/RssReader_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/38/38E+-cMkH0W0P4GS1ZV-6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-ftuimqvhorfltvfohavxrtqlikvf/RssReader_Prefix.pch.gch RssReader_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s301044792.955503
+e301044793.847499
+r1
+xProcessPCH
+x/var/folders/38/38E+-cMkH0W0P4GS1ZV-6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-ftuimqvhorfltvfohavxrtqlikvf/RssReader_Prefix.pch.gch
+xRssReader_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile RssReader_Prefix.pch301044792#301044793#0(0"0(0#0#94"/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/RssReader_Prefix.pch8607468096#2181"    cd /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-generated-files.hmap -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-own-target-headers.hmap -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-all-target-headers.hmap -iquote /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-project-headers.hmap -F/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/include -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources/i386 -I/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources -c /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/RssReader_Prefix.pch -o /var/folders/38/38E+-cMkH0W0P4GS1ZV-6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-ftuimqvhorfltvfohavxrtqlikvf/RssReader_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/at/atnH+NV2H8GDDYXAasUFhU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-bultzqmxxjkhdkcofpblqzokgdmp/RssReader_Prefix.pch.gch RssReader_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s305859764.179935
+e305859765.037479
+r1
+xProcessPCH
+x/var/folders/at/atnH+NV2H8GDDYXAasUFhU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-bultzqmxxjkhdkcofpblqzokgdmp/RssReader_Prefix.pch.gch
+xRssReader_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile RssReader_Prefix.pch305859764#305859765#0(0"0(0#0#58"/Users/mjacobs/git/bebop/iphone/bebop/RssReader_Prefix.pch8610073792#1821"    cd /Users/mjacobs/git/bebop/iphone/bebop    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-generated-files.hmap -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-own-target-headers.hmap -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-all-target-headers.hmap -iquote /Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/RssReader-project-headers.hmap -F/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator -I/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/include -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources/i386 -I/Users/mjacobs/git/bebop/iphone/bebop/build/RssReader.build/Debug-iphonesimulator/RssReader.build/DerivedSources -c /Users/mjacobs/git/bebop/iphone/bebop/RssReader_Prefix.pch -o /var/folders/at/atnH+NV2H8GDDYXAasUFhU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RssReader_Prefix-bultzqmxxjkhdkcofpblqzokgdmp/RssReader_Prefix.pch.gch0#
+
+CTouch /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app
+s305859765.258756
+e305859765.263142
+r1
+xTouch
+x/Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app
+lSLF07#2@85"Touch /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app305859765#305859765#0(0"0(0#0#0"8609772768#278"    cd /Users/mjacobs/git/bebop/iphone/bebop    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mjacobs/git/bebop/iphone/bebop/build/Debug-iphonesimulator/RssReader.app0#
+
+CTouch /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app
+s301045281.365372
+e301045281.367421
+r1
+xTouch
+x/Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app
+lSLF07#2@121"Touch /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app301045281#301045281#0(0"0(0#0#0"8608046016#350"    cd /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/oscar/Desktop/cocoadevblog/002-iphone-rss-podcast-reader/RssReader/build/Debug-iphonesimulator/RssReader.app0#
+
