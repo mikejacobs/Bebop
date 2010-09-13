@@ -32,7 +32,7 @@
   <!-- CSS : implied media="all" -->
   <link rel="stylesheet" href="static/css/style.css?v=1">
   <link rel="stylesheet" href="static/css/bebop.css?v=1">
-  <link rel="stylesheet" href="static/js/soundmanager/demo/page-player/css/page-player.css">
+  <link href="static/js/mediaelement/src/mediaelementplayer.css" rel="Stylesheet" />
 
   <!-- For the less-enabled mobile browsers like Opera Mini -->
   <link rel="stylesheet" media="handheld" href="static/css/handheld.css?v=1">
@@ -40,30 +40,10 @@
  
   <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
   <script src="static/js/modernizr-1.5.min.js"></script>
-  <script src="static/js/soundmanager/script/soundmanager2.js"></script>
-  <script src="static/js/soundmanager/demo/page-player/script/page-player.js"></script>
-  <script type="text/javascript">
-  var is_shiny = false;
-  function setTheme(sTheme) {
-    var o = pagePlayer.getElementsByClassName('playlist','ul');
-    for (var i=o.length; i--;) {
-      o[i].className = 'playlist'+(pagePlayer.cssBase?' '+pagePlayer.cssBase:'')+(sTheme?' '+sTheme:'')+(is_shiny?' shiny':'');
-    }
-    return false;
-  }
-  function setShiny(bShiny) {
-    is_shiny = bShiny;
-    var o = pagePlayer.getElementsByClassName('playlist','ul');
-    var sClass = 'shiny';
-    for (var i=o.length; i--;) {
-      if (!bShiny) {
-  	  pagePlayer.removeClass(o[i],sClass);
-  	} else {
-  	  pagePlayer.addClass(o[i],sClass);
-  	}
-    }
-  }
-  </script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script>!window.jQuery && document.write('<script src="static/js/jquery-1.4.2.min.js"><\/script>')</script>
+  <script src="static/js/mediaelement/src/mediaelement.js"></script>
+  <script src="static/js/mediaelement/src/mediaelementplayer.js"></script>
   
 
 </head>
@@ -80,50 +60,25 @@
 
   <div id="container">
     <header>
-
+        <audio id="audio_element" src="${songs[0]['mp3s'][0][0]}" type="audio/mp3" controls="control"></audio>	
+        
     </header>
     
     <div id="main">
-
+        
          <ul class="playlist">
         %for song in songs:
         <!-- ${song} -->
             <!-- <a href="${song['link']}">${song['title']}</a><br>${song['description']}<br> -->
             %for mp3 in song['mp3s']:
             <li>
-                <a href="${mp3[0]}" class="sm2_link">${mp3[1]}</a>
+                <a href="${mp3[0]}" class="playable">${mp3[1]}</a>
             </li>
             %endfor
         
         %endfor
         </ul>
 
-    </div>
-    <div id="sm2-container">
-     <!-- SM2 flash goes here -->
-    </div>
-    <div id="control-template">
-     <!-- control markup inserted dynamically after each link -->
-     <div class="controls">
-      <div class="statusbar">
-       <div class="loading"></div>
-       <div class="position"></div>
-      </div>
-     </div>
-     <div class="timing">
-      <div id="sm2_timing" class="timing-data">
-       <span class="sm2_position">%s1</span> / <span class="sm2_total">%s2</span>
-      </div>
-     </div>
-     <div class="peak">
-      <div class="peak-box"><span class="l"></span><span class="r"></span></div>
-     </div>
-    </div>
-
-    <div id="spectrum-container" class="spectrum-container">
-     <div class="spectrum-box">
-      <div class="spectrum"></div>
-     </div>
     </div>
     
     <footer>
@@ -135,45 +90,8 @@
   <!-- Javascript at the bottom for fast page loading -->
 
   <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-  <script>!window.jQuery && document.write('<script src="static/js/jquery-1.4.2.min.js"><\/script>')</script>
 
-  <!-- configure it for your use -->
-  <script type="text/javascript">
 
-  soundManager.url = 'static/js/soundmanager/swf'; // directory where SM2 .SWFs live
-
-  // Note that SoundManager will determine and append the appropriate .SWF file to the URL,
-  // eg. /path/to/sm2-flash-movies/soundmanager2.swf automatically.
-
-  // Beta-ish HTML5 audio support (force-enabled for iPad), flash-free sound for Safari + Chrome. Enable if you want to try it!
-  soundManager.useHTML5Audio = true;
-
-  // do this to skip flash block handling for now. See the flashblock demo when you want to start getting fancy.
-  soundManager.useFlashBlock = false;
-
-  // disable debug mode after development/testing..
-  // soundManager.debugMode = false;
-
-  // Option 3 (best): onready() + createSound() methods, handle load/failure together:
-
-  soundManager.onready(function() {
-    // check if SM2 successfully loaded..
-    if (soundManager.supported()) {
-      // SM2 has loaded - now you can create and play sounds!
-      var mySound = soundManager.createSound({
-        id: 'aSound',
-        url: 'static/test.mp3'
-        // onload: [ event handler function object ],
-        // other options here..
-      });
-      mySound.play();
-    } else {
-      // (Optional) Hrmm, SM2 could not start. Show an error, etc.?
-    }
-  });
-
-  </script>
   <script src="static/js/plugins.js?v=1"></script>
   <script src="static/js/script.js?v=1"></script>
   <!-- // <script src="static/js/id3/binaryajax/binaryajax.js" ></script> -->

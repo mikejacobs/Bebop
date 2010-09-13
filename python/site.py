@@ -1,19 +1,10 @@
 import sys
 import re
 import cherrypy
-import feedparser
 import urllib
 import cherrypy_tools
 from BeautifulSoup import BeautifulSoup 
 from BeautifulSoup import BeautifulStoneSoup
-import eyeD3
-
-def getKeyValue(s, key):
-    t=s.find(name='key', text=key)
-    if t is None:
-        return None
-    val=t.parent.nextSibling
-    return val.string
 
 class Root:
         @cherrypy.expose
@@ -38,7 +29,7 @@ class Root:
                     contentsoup = BeautifulSoup(str(encoded))
                     # print contentsoup 
                     mp3s = contentsoup.findAll('a', href=re.compile(".mp3$"))
-                    print len(mp3s)
+                    # print len(mp3s)
                     if(len(mp3s)):
                         songs = []
                         for song in mp3s:

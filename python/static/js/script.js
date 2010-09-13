@@ -1,33 +1,21 @@
-/* Author: 
-
-   __ __    ____         _______        _       ____         
-  / // /__ / / /__      / ___/ /  ___ _(_)___  /  _/__  ____ 
- / _  / -_) / / _ \_   / /__/ _ \/ _ `/ / __/ _/ // _ \/ __/ 
-/_//_/\__/_/_/\___( )  \___/_//_/\_,_/_/_/   /___/_//_/\__(_)
-                  |/
-http://hellochair.com
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+$(function() {
+    //namespace
+    var bebop = {}
+    
+    //media element
+    bebop.player = new MediaElementPlayer($("#audio_element").get(0));
+    console.log(bebop.player)
+    
+    //hook up media links
+    $(".playable").click(function(){
+        bebop.media_swap(this)
+        return false;
+    })
+    
+    bebop.media_swap = function(o){
+        this.player.pause()
+        $(this.player).attr("src", $(o).attr("href"));
+        this.player.play()
+        return false;
+    }
+});

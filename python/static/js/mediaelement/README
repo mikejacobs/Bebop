@@ -1,0 +1,64 @@
+Author: John Dyer (http://johndyer.name/)
+Website: http://mediaelementjs.com/
+License: GPLv2/MIT
+Meaning: Please use this everywhere and it'd be swell if you'd 
+link back here.
+Thanks: my employer, Dallas Theological Seminary (http://www.dts.edu/)
+
+======================================================================
+GOAL: Make <video> easy. One file. Any browser. Same UI.
+======================================================================
+
+
+----------------------------------------------------------------------
+MediaElement.js
+----------------------------------------------------------------------
+HTML5 <video> Toolkit
+
+MediaElement.js allows you to use H.264, FLV, and WMV video with the 
+<video> tag and program against the HTML5 Media API.
+
+This is accomplished by detecting what the browser supports, and when it 
+doesn't suppor <video> or the media file you've give it, MediaElement.js
+replaces the <video> element with a Silverlight or Flash plugin and 
+wraps it in a JavaScript object that that mimics the native 
+Media Element API.
+
+
+//////////////////////////////////////////////////////////////////////
+<script src="mediaelement.js"></script>
+
+<video src="myvideo.mp4" width="320" height="240"></video>
+
+<script>
+var v = document.getElementsByTagName("video")[0];
+new MediaElement(v, {success: function(media) {
+	media.play();
+}});
+</script>
+//////////////////////////////////////////////////////////////////////
+
+----------------------------------------------------------------------
+MediaElementPlayer.js
+----------------------------------------------------------------------
+Built on top of MediaElement.js and using jQuery, MediaElementPlayer.js
+is a complete video/audio player in HTML/CSS. No matter what your 
+browser supports, you get the same consistent control UI.
+
+
+//////////////////////////////////////////////////////////////////////
+<script src="jquery.js"></script>
+<script src="mediaelement.js"></script>
+<script src="mediaelementplayer.js"></script>
+<link rel="stylesheet" href="mediaelementplayer.css" />
+
+<video id="v1" src="myvideo.mp4" width="320" height="240"></video>
+
+<script>
+$('video').mediaelementplayer();
+</script>
+<!-- OR -->
+<script>
+new MediaElementPlayer('#v1');
+</script>
+//////////////////////////////////////////////////////////////////////

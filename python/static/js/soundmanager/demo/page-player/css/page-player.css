@@ -63,7 +63,7 @@ ul.playlist li {
  padding:0.25em 0.5em 0.25em 0.5em;
  border:none;
  letter-spacing:-1px; /* ZOMG WEB X.0. ;) */
- background-color:#f9f9f9;
+/* background-color:#f9f9f9;*/
  -webkit-transition-property: hover;
  -webkit-transition: background-color 0.15s ease-in-out;
 }
@@ -114,7 +114,7 @@ ul.playlist li .controls {
  display:none;
 }
 
-ul.playlist li .peak,
+.peak,
 ul.playlist.use-peak li .peak {
  display:none;
  position:absolute;
@@ -153,14 +153,14 @@ ul.playlist li.sm2_paused .controls .statusbar {
  background-color:#ccc;
 }
 
-ul.playlist li .controls {
+.controls {
  position:relative;
  margin-top:0.25em;
  margin-bottom:0.25em;
  background-color:#99ccff;
 }
 
-ul.playlist li .controls .statusbar {
+.controls .statusbar {
  position:relative;
  height:0.5em;
  background-color:#ccddff;
@@ -173,21 +173,21 @@ ul.playlist li .controls .statusbar {
  cursor:grab;
 }
 
-ul.playlist li .controls.dragging .statusbar {
+.controls.dragging .statusbar {
  cursor:-moz-grabbing;
  cursor:grabbing;
 }
 
-ul.playlist li .controls .statusbar .position,
-ul.playlist li .controls .statusbar .loading,
-ul.playlist li .controls .statusbar .annotation {
+.controls .statusbar .position,
+.controls .statusbar .loading,
+.controls .statusbar .annotation {
  position:absolute;
  left:0px;
  top:0px;
  height:0.5em;
 }
 
-ul.playlist li .controls .statusbar .position {
+.controls .statusbar .position {
  background-color:#336699;
  border-right:3px solid #336699;
  border-radius:3px;
@@ -200,12 +200,12 @@ ul.playlist li.sm2_paused .controls .statusbar .position {
  border-color:#666;
 }
 
-ul.playlist li .controls .statusbar .loading {
+.controls .statusbar .loading {
  background-color:#eee;
 }
 
-ul.playlist li .controls .statusbar .position,
-ul.playlist li .controls .statusbar .loading {
+.controls .statusbar .position,
+.controls .statusbar .loading {
  width:0px;
 }
 
@@ -214,12 +214,12 @@ ul.playlist li.sm2_paused a.sm2_link {
  margin-right:4.5em; /* room for timing stuff */
 }
 
-ul.playlist li .timing {
+.timing {
  position:absolute;
- display:none;
+ display:block;
  text-align:right;
- right:1em;
- top:1em;
+ right:10px;
+ top: 10px;
  width:auto;
  height:1em;
  padding:3px 5px;
@@ -242,7 +242,7 @@ ul.playlist li:hover .timing {
  z-index:2;
 }
 
-ul.playlist li .timing div.sm2_timing {
+.timing div.sm2_timing {
  margin:0px;
  padding:0px;
  margin-top:-1em;
@@ -289,8 +289,8 @@ ul.playlist.use-peak li .peak-box {
  overflow:hidden;
 }
 
-ul.playlist li .peak .l,
-ul.playlist li .peak .r {
+.peak .l,
+.peak .r {
  position:absolute;
  left:0px;
  top:0px;
@@ -303,14 +303,34 @@ ul.playlist li .peak .r {
  margin-top:1em;
 }
 
-ul.playlist li .peak .l {
+.peak .l {
  margin-right:1px;
 }
 
-ul.playlist li .peak .r {
+.peak .r {
  left:10px;
 }
 
 #control-template {
  display:none;
+}
+#mainControls{
+    position:relative;
+    display:block;
+    width:auto;
+     font-size:2em;
+/*height:50px;*/
+background:#ff00ff;
+margin-top:50px;
+padding:10px;
+}
+#mainControls a {
+ display:block;
+ text-decoration:none;
+ font-weight:normal;
+ color:#000;
+ font-size:120%;
+ outline:none;
+ position:relative;
+ z-index:2;
 }

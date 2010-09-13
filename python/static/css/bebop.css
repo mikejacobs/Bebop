@@ -1,3 +1,10 @@
-#sm2-container{
-    height:0px;
+body{
+    padding:20px;
+}
+#audio_player{
+    display:none;
+}
+header{
+    height:48px;
+    margin:0px 0px 30px 0px;
 }

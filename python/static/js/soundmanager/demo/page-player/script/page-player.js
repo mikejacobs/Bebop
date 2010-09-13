@@ -520,21 +520,22 @@ var count = 0;
 	      });
 	      // append control template
 	      var oControls = self.oControls.cloneNode(true);
-	      o.parentNode.appendChild(oControls);
-	      o.parentNode.appendChild(document.getElementById('spectrum-container'));
+	      var mainControls = document.getElementById('mainControls');
+	      mainControls.appendChild(oControls);
+	      mainControls.appendChild(document.getElementById('spectrum-container'));
 	      self.soundsByObject[o.rel] = thisSound;
 	      // tack on some custom data
 	      thisSound._data = {
 	        oLink: o, // DOM reference within SM2 object event handlers
 	        oLI: o.parentNode,
-	        oControls: self.getElementsByClassName('controls','div',o.parentNode)[0],
-	        oStatus: self.getElementsByClassName('statusbar','div',o.parentNode)[0],
-	        oLoading: self.getElementsByClassName('loading','div',o.parentNode)[0],
-	        oPosition: self.getElementsByClassName('position','div',o.parentNode)[0],
-	        oTimingBox: self.getElementsByClassName('timing','div',o.parentNode)[0],
-	        oTiming: self.getElementsByClassName('timing','div',o.parentNode)[0].getElementsByTagName('div')[0],
-	        oPeak: self.getElementsByClassName('peak','div',o.parentNode)[0],
-	        oGraph: self.getElementsByClassName('spectrum-box','div',o.parentNode)[0],
+	        oControls: self.getElementsByClassName('controls','div', mainControls)[0],
+	        oStatus: self.getElementsByClassName('statusbar','div',mainControls)[0],
+	        oLoading: self.getElementsByClassName('loading','div',mainControls)[0],
+	        oPosition: self.getElementsByClassName('position','div',mainControls)[0],
+	        oTimingBox: self.getElementsByClassName('timing','div',mainControls)[0],
+	        oTiming: self.getElementsByClassName('timing','div',mainControls)[0].getElementsByTagName('div')[0],
+	        oPeak: self.getElementsByClassName('peak','div',mainControls)[0],
+	        oGraph: self.getElementsByClassName('spectrum-box','div',mainControls)[0],
 	        nIndex: self.getSoundIndex(o),
 	        className: self.css.sPlaying,
 	        originalTitle: o.innerHTML,
